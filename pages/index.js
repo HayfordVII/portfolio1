@@ -1,19 +1,17 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import { ContentCopy } from '@mui/icons-material'
+
 
 export default function Home() {
   return (
     <div className='container'>
       <div id='box1'>
-        <Image src='/avatar.svg' width={220} height={175} />
+        <Image src='/avatar.svg' width={742.5} height={590.625} alt={"Avatar"}/>
       </div>
       <div id='box2'>
-        <p>I'm a web developer who elabrorates in UI/UX Design.</p>
+        <p>I&#39;m a web developer who elabrorates in <span id={'ux'}>UI/UX Design</span></p>
         <div className='copy-email'>
-          <ContentCopy id='concopy'/> 
-          <input type={'text'} value='brighthfrd@gmail.com' className='name'></input>
-          
+          <button id='copy_email'>brighthfrd@gmail.com</button>
         </div>
       </div>
     </div>

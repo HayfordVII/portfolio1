@@ -1,10 +1,8 @@
 const Works = () => {
     return (
         <div id="work">
-            <p>first</p>
-            <p>first</p>
-            <p>first</p>
-            <p>sffd</p>
+            <p>STILL IN DEVELOPMENT</p>
+
         </div>
     );
 }
